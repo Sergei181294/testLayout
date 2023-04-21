@@ -1,0 +1,94 @@
+* {
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+}
+
+a,
+button {
+       cursor: pointer;
+}
+
+
+.form {
+       display: flex;
+       flex-direction: column;
+       width: 450px;
+       margin: 0 auto;
+}
+
+.header {
+       text-align: center;
+}
+
+.header__name {
+       margin-right: 150px;
+}
+
+.image {
+       display: block;
+       margin: 140px auto 0;
+}
+
+.form__label {
+       font-size: 14px;
+       margin-bottom: 10px;
+       color: gray;
+}
+
+.form__input {
+       padding: 10px;
+       border: none;
+       border-bottom: 2px solid rgb(136, 131, 131);
+       margin-bottom: 15px;
+}
+
+.form__input:focus {
+       background-color: rgb(228, 228, 250);
+}
+
+
+.form__input_login {
+       width: 450px;
+}
+
+.form__block {
+       display: flex;
+       justify-content: space-between;
+}
+
+.form__input_password {
+       width: 450px;
+}
+
+.form__link {
+       text-decoration: none;
+       font-size: 18px;
+       color: rgb(0, 0, 168)
+}
+
+.form__button {
+       text-align: inherit;
+       padding: 15px 10px;
+       font-size: 18px;
+       border: none;
+       background-color: #0053ac;
+       color: #fff;
+       background-image: url("../css/img/arrow-right.svg");
+       background-repeat: no-repeat;
+       background-position: right 24px center;
+}
+
+.footer {
+       width: 450px;
+       margin: 0 auto;
+}
+.footer__devider {
+       margin-top: 30px;
+}
+
+.footer__copyright {
+       font-size: 14px;
+       color: gray;
+       margin-top: 140px;
+}
